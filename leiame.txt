@@ -1,0 +1,26 @@
+INTRODUÇÃO
+Esse é um jogo simples de pesca. Ao iniciá-lo, são criados 15 peixes com posição, cor, velocidade e forma aleatórios,
+e seu objetivo é pescar todos eles. Para isso, você dispôe de um arpão, representado por um triângulo preto, que é
+capaz de atirar bolha para cima; quando uma bolha atinge um peixe, ele é capturado e a bolha some. Você só pode atirar
+uma bolha por vez.
+Para controlar o arpão, você tem duas opções:
+    1 - com o teclado: tecle "A" para mover o arpão para a esquerda, "D" para mover o arpão para a direita e "S" para 
+        atirar uma bolha.
+    2 - com o mouse: mova seu mouse dentro da praia (região verde) e o arpão seguirá a posição de seu ponteiro. Clique
+        com o botão esquerdo do mouse dentro dessa região para atirar uma bolha.
+
+HORAS DE TRABALHO
+    Semana 1 (10/04 - 16/04): 2h
+    Semana 2 (17/04 - 23/04): +-6h
+    Total: 8h
+
+DIFICULDADES
+    Minha maior dificuldade foi no desenho do círculo, uma vez que tive que lembrar noções de geometria que,
+    francamente, já tinha esquecido. Mesmo após conseguir desenhar os "círculos" corretamente, minha função
+    que calculava se um peixe havia sido atingido pela bolha nunca funcionava corretamente, e a preguiça/cansaço
+    fazia com que eu tentasse manipular os números do cálculo (mesmo sabendo que estavam corretos) para ajustar
+    a função. Foi apenas depois de uma noite de sono que eu resolvi fazer as coisas do jeito certo e debugar o
+    código; para isso, passei a desenhar o "quadrado" em que o círculo estava circunstrito, e percebi que meu
+    cálculo do posicionamento do círculo estava completamente errado (o centro do círculo estava no raio superior
+    do quadrado). Após consertar esse problema, tudo funcionou perfeitamente sem mais dores de cabeça.
+
